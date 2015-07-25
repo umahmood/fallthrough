@@ -1,4 +1,4 @@
-baseurl = "http://127.0.0.1"
+baseurl = "https://fallthrough.io"
 languageCode = "en-us"
 title = "Usman Mahmood"
 theme = "hyde"
