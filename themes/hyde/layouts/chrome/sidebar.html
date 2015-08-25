@@ -12,12 +12,12 @@
       {{ range .Site.Menus.main }}
         <li><a href="{{.URL}}">{{ .Name }} </a></li>
       {{end}}
-      <li><a href="{{.Site.Params.github}}">Github</a></li>
       <br/>
-     
-      {{ with .Site.Params.github }}<a href="{{.}}"><i class="fa fa-github-square"></i></a>&nbsp;&nbsp;{{end}}
-    
-    <br/><br/>
+      <li><a href="{{.Site.Params.github}}">Github</a></li>
+      <li><a href="{{.Site.Params.twitter}}">Twitter</a></li>
+      <li><a href="{{.Site.Params.keybase}}">Keybase</a></li>
+
+    <br/>
     &copy; {{.Now.Format "2006"}} Usman Mahmood. All rights reserved.</p>
     
   </div>
