@@ -1,6 +1,6 @@
 +++
 date = "2015-12-14T01:40:39Z"
-draft = true
+draft = false
 title = "Go Channel Axioms"
 type = "post"
 
